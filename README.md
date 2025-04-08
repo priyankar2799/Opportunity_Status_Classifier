@@ -52,3 +52,30 @@ This repository contains a machine learning project aimed at predicting the **St
 - ✅ Feature Importance Bar Chart
 
 ---
+## 💡 Notes
+
+This repository is made for learning and educational purposes only.  
+Feel free to use the code by giving proper credits.
+
+---
+
+## 👨‍💻 Author
+
+**Akshay CU**  
+Data Engineer & AI Enthusiast
+
+- GitHub: [https://github.com/akshaycu9093](url)
+- LinkedIn: [https://www.linkedin.com/in/akshay-c-0a7106134/](url)
+
+---
+
+## 🌟 Future Improvements
+
+- Add more visualization plots.
+- Enhance model accuracy by hyperparameter tuning.
+- Create a Streamlit web application for real-time predictions.
+
+---
+
+
+

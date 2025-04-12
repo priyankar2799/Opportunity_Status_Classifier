@@ -14,7 +14,7 @@ uploaded_file = st.file_uploader("Upload your CSV file", type=["csv"])
 
 if uploaded_file:
     #input_data = pd.read_csv(uploaded_file)
-    input_data = pd.read_csv(uploaded_file, encoding='ISO-8859-1')  # or try 'latin1' or 'cp1252'
+    input_data = pd.read_csv(uploaded_file, encoding='latin1')  # or try 'latin1' or 'cp1252'
 
     # Preprocess input
     for col in input_data.select_dtypes(include=['object']).columns:

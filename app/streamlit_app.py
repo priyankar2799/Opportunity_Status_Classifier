@@ -10,10 +10,7 @@ label_encoders = pickle.load(open('models/label_encoders.pkl', 'rb'))
 
 st.title("🚀 Drop-Off Prediction Application")
 
-#uploaded_file = st.file_uploader("Upload your CSV file", type=["csv"])
-if uploaded_file:
-    input_data = pd.read_csv(uploaded_file, encoding='latin1')
-
+uploaded_file = st.file_uploader("Upload your CSV file", type=["csv"])
 
 if uploaded_file:
     input_data = pd.read_csv(uploaded_file)

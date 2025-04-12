@@ -27,12 +27,12 @@ if uploaded_file:
     predictions = rf_model.predict(input_data_scaled)
 
     # Show results
-    #result_df = pd.DataFrame({'Prediction': predictions})
-    #st.write("### 📋 Prediction Results", result_df)
+    result_df = pd.DataFrame({'Prediction': predictions})
+    st.write("### 📋 Prediction Results", result_df)
 
-    input_data['Prediction'] = predictions
-    st.subheader("🔮 Predictions:")
-    st.write(input_data[['Prediction']])
+   # input_data['Prediction'] = predictions
+    #st.subheader("🔮 Predictions:")
+    #st.write(input_data[['Prediction']])
 
     # Download predictions
     csv = result_df.to_csv(index=False).encode('utf-8')

@@ -10,7 +10,7 @@ imputer = pickle.load(open('models/imputer.pkl', 'rb'))
 label_encoders = pickle.load(open('models/label_encoders.pkl', 'rb'))
 
 # App Title
-st.title("🚀 Drop-Off Prediction Application")
+st.title("🚀 Drop-Off Prediction Application 111")
 
 # File uploader
 uploaded_file = st.file_uploader("Upload your CSV file", type=["csv"])

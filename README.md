@@ -77,5 +77,11 @@ Data Engineer & AI Enthusiast
 
 ---
 
+![Python](https://img.shields.io/badge/Python-3.10-blue.svg)
+![Streamlit](https://img.shields.io/badge/Streamlit-%E2%9D%A4-red)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+
+
 
 

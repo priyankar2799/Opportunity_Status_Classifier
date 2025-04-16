@@ -44,4 +44,4 @@ with open('models/imputer.pkl', 'wb') as f:
 with open('models/label_encoders.pkl', 'wb') as f:
     pickle.dump(label_encoders, f)
 
-print("✅ Models and preprocessors saved successfully!")
+print("Models and preprocessors saved successfully!")

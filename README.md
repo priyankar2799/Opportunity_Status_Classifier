@@ -59,16 +59,6 @@ Feel free to use the code by giving proper credits.
 
 ---
 
-## 👨‍💻 Author
-
-**Akshay CU**  
-Data Engineer & AI Enthusiast
-
-- GitHub: [https://github.com/akshaycu9093](url)
-- LinkedIn: [https://www.linkedin.com/in/akshay-c-0a7106134/](url)
-
----
-
 ## 🌟 Future Improvements
 
 - Add more visualization plots.
